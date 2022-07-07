@@ -1,4 +1,4 @@
-# docker image creation(for app) and kubernetes Deployment
+# create docker image of app and deploye it with kubernetes
 ## app - developing with Docker
 
 This app shows a simple user profile app set up using 
