@@ -11,7 +11,7 @@ All components are docker-based
 ### With Docker
 
 #### To start the application
-
+run : cd app/
 Step 1: Create docker network
 
     docker network create mongo-network 
@@ -75,13 +75,6 @@ The dot "." at the end of the command denotes location of the Dockerfile.
 
 
 
-
-
-
-
-
-
-
 # kubernetes deployments
 #### K8s manifest files 
 * mongo-config.yaml
@@ -92,6 +85,7 @@ The dot "." at the end of the command denotes location of the Dockerfile.
 
 
 #### K8s commands
+cd ..
 kubectl apply -f ./mongo-config.yaml
 kubectl apply -f ./mongo-secret.yaml
 kubectl apply -f ./mongo.yaml
